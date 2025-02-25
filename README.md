@@ -6,7 +6,7 @@ This project performs sentiment analysis on Twitter data using Natural Language 
 The dataset is sourced from Kaggle and contains tweets with sentiment labels:
 
 Column	Description
-sentiment	Sentiment label (positive, negative, neutral)
+sentiment Sentiment label (positive, negative, neutral)
 review	Tweet text content
 
 ✅ The dataset has been preprocessed to remove noise, special characters, and stopwords before training.
@@ -39,29 +39,16 @@ Edit
 📌 How to Run the Project
 
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/dip-d10/Twitter_sentiment_analysis.git
-cd Twitter-Sentiment-Analysis
+
 
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
 
 3️⃣ Run the Jupyter Notebook
-Open sentiment_analysis.ipynb in Jupyter Notebook / Google Colab
-Run all cells to train and test the model
 
 📊 Testing the Model
-Use the trained model to predict sentiment for new tweets:
-
-python
-Copy
-Edit
-import joblib
+Use the trained model to predict sentiment for new tweets
 
 # Load the saved model and vectorizer
 rf_model = joblib.load("models/sentiment_analysis_model.pkl")
