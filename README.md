@@ -7,23 +7,26 @@ This project performs sentiment analysis on Twitter data using Natural Language 
 The dataset is sourced from Kaggle and contains tweets with sentiment labels:
 
 Column	Description: 
-(positive, negative, neutral)
 
+1.Sentiment- (positive, negative, neutral)
+
+2.Reviews
 
 ✅ The dataset has been preprocessed to remove noise, special characters, and stopwords before training.
 
 
 ⚙️ Technologies Used
-Python
-NLP Libraries: NLTK,  Scikit-learn
 
-Machine Learning: Random Forest
+1.Python
+2.NLP Libraries: NLTK,  Scikit-learn
 
-Feature Engineering: TF-IDF Vectorization
+3.Machine Learning: Random Forest
 
-Notebook (Google Colab)
+4.Feature Engineering: TF-IDF Vectorization
 
-Git & GitHub for version control
+5.Notebook (Google Colab)
+
+6.Git & GitHub for version control
 
 
 ** Model Training & Optimization
@@ -57,7 +60,7 @@ git clone https://github.com/dip-d10/Twitter_sentiment_analysis.git
 
 3️⃣ Run the Jupyter Notebook
 
-📊 Testing the Model
+📊 Test the Model
 Use the trained model to predict sentiment for new tweets
 
 
