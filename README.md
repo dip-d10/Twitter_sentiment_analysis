@@ -42,7 +42,7 @@ Edit
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/Twitter-Sentiment-Analysis.git
+git clone https://github.com/dip-d10/Twitter_sentiment_analysis.git
 cd Twitter-Sentiment-Analysis
 
 2️⃣ Install Dependencies
