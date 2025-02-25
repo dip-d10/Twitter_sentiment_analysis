@@ -68,11 +68,20 @@ Use the trained model to predict sentiment for new tweets
 
 # Sample tweets for testing
 
-new_texts = [
-    "I never expected things to turn out this way.",
-    "That was definitely something different.",
-    "I guess this is what I was waiting for."
+new_texts = 
+[
+"I never expected things to turn out this way.",
+
+"That was definitely something different.",
+
+"I guess this is what I was waiting for."
+
 ]
+
+
+
+
+
 
 
 
