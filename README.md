@@ -70,6 +70,7 @@ Use the trained model to predict sentiment for new tweets
 
 new_texts = 
 [
+
 "I never expected things to turn out this way.",
 
 "That was definitely something different.",
@@ -86,5 +87,5 @@ new_texts =
 
 
 
-👨‍💻 Author
+👨‍💻 Author: 
 Sumanta Jyoti (DIP)
