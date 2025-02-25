@@ -3,24 +3,12 @@
 📌 Project Overview
 This project performs sentiment analysis on Twitter data using Natural Language Processing (NLP) and machine learning. The dataset contains tweets labeled as positive, negative, or neutral, and the goal is to classify new tweets into these categories using a Random Forest model with optimized hyperparameters.
 
-📂 Project Structure
-bash
-Copy
-Edit
-📁 Twitter-Sentiment-Analysis/
-│── 📜 sentiment_analysis.ipynb  # Jupyter Notebook with full code
-│── 📂 data/
-│   ├── clean_twitter_data.csv   # Preprocessed dataset
-│── 📂 models/
-│   ├── sentiment_analysis_model.pkl  # Trained Random Forest model
-│   ├── tfidf_vectorizer.pkl         # TF-IDF vectorizer used for text transformation
-│── 📜 README.md  # Project documentation
-💾 Dataset
 The dataset is sourced from Kaggle and contains tweets with sentiment labels:
 
 Column	Description
 sentiment	Sentiment label (positive, negative, neutral)
 review	Tweet text content
+
 ✅ The dataset has been preprocessed to remove noise, special characters, and stopwords before training.
 
 ⚙️ Technologies Used
@@ -30,7 +18,8 @@ Machine Learning: Random Forest
 Feature Engineering: TF-IDF Vectorization
 Jupyter Notebook (Google Colab)
 Git & GitHub for version control
-🚀 Model Training & Optimization
+
+** Model Training & Optimization
 The project initially trained several models, but Random Forest performed the best with 91% accuracy after hyperparameter tuning.
 
 🔹 Hyperparameter Tuning (Best Parameters)
@@ -45,21 +34,27 @@ Edit
     'min_samples_leaf': 1
 }
 🔹 Final Model Accuracy: 91%
+
+
 📌 How to Run the Project
+
 1️⃣ Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/yourusername/Twitter-Sentiment-Analysis.git
 cd Twitter-Sentiment-Analysis
+
 2️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 3️⃣ Run the Jupyter Notebook
 Open sentiment_analysis.ipynb in Jupyter Notebook / Google Colab
 Run all cells to train and test the model
+
 📊 Testing the Model
 Use the trained model to predict sentiment for new tweets:
 
