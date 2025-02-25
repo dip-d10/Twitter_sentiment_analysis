@@ -8,25 +8,26 @@ The dataset is sourced from Kaggle and contains tweets with sentiment labels:
 
 Column	Description: 
 
-1.Sentiment- (positive, negative, neutral)
+1. Sentiment- (positive, negative, neutral)
 
-2.Reviews
+2. Reviews
 
 ✅ The dataset has been preprocessed to remove noise, special characters, and stopwords before training.
 
 
 ⚙️ Technologies Used
 
-1.Python
-2.NLP Libraries: NLTK,  Scikit-learn
+1. Python 
+ 
+2. NLP Libraries: NLTK,  Scikit-learn
 
-3.Machine Learning: Random Forest
+3. Machine Learning: Random Forest
 
-4.Feature Engineering: TF-IDF Vectorization
+4. Feature Engineering: TF-IDF Vectorization
 
-5.Notebook (Google Colab)
+5. Notebook (Google Colab)
 
-6.Git & GitHub for version control
+6. Git & GitHub for version control
 
 
 ** Model Training & Optimization
@@ -61,6 +62,7 @@ git clone https://github.com/dip-d10/Twitter_sentiment_analysis.git
 3️⃣ Run the Jupyter Notebook
 
 📊 Test the Model
+
 Use the trained model to predict sentiment for new tweets
 
 
